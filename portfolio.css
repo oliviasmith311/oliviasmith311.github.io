@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+body{
+    font-family: 'Annie Use Your Telescope';
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+li{
+    font-family: 'Archivo Narrow';
+}
+
+p {
+    font-family: 'Archivo Narrow';
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.linkphoto {
+    width: 100 px;
+    height: 100px;
+}
