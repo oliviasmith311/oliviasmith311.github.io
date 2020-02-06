@@ -1,18 +1,19 @@
 h1 {
     text-align: center;
-    font-size: 100px;
-    margin-bottom: 10px;
+    font-size: 10rem;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: #000e18;
 }
 
 body{
     font-family: 'Annie Use Your Telescope';
+    background-color: burlywood;
+    color: #000e18;
 }
 
 img {
     width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 h2 {
@@ -24,21 +25,58 @@ h2 {
 
 h3 {
     font-size: 30px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-left: 35px;
 }
 
 li{
     font-family: 'Archivo Narrow';
+    font-size: 30px;
+}
+
+#options{
+    font-family: 'Annie Use Your Telescope';
+    font-size: 30px;
 }
 
 p {
     font-family: 'Archivo Narrow';
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
 }
 
 .linkphoto {
-    width: 100 px;
-    height: 100px;
+    width: 5rem;
+    height: 5rem;
+    padding: 0px;
+}
+
+.contact {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#selfpic{
+    border-radius: 15px;
+}
+
+#header {
+    margin-top: 0px;
+}
+
+#contact-info{
+    margin-top: 0px;
+}
+
+.projects__1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer{
+    font-family: 'Archivo Narrow';
+    font-size: 15px;
 }

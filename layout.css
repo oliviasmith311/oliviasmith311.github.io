@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 10px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#site-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 45px;
+}

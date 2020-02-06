@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Olivia Smith's Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="layout.css">
+
 
 </head>
 
@@ -16,24 +18,23 @@
 <body>
     <h1>Olivia Smith</h1>
 
-    <img src="portfoliopic.jpg" alt="Olivia Smith photo">
-
     <h2 id="header">Welcome to Olivia Smith's portfolio!</h2>
+    <div class="intro">
+        <img id="selfpic" src="portfoliopic.jpg" alt="Olivia Smith photo">
 
-    <nav>
-        <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#contact-info">Contact Info</a></li>
-            <li><a href="#site-links">My Sites</a></li>
-            <li><a href="#skills">My Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-        </ul>
-    </nav>
+        <nav id="list">
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#contact-info">Contact Info</a></li>
+                <li><a href="#site-links">My Sites</a></li>
+                <li><a href="#skills">My Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <section>
-
-        <h2 id="about-me">About Me</h2>
-        <div>
+        <div id="about-me">
             <h3>My Bio</h3>
             <p>Hi! My name is Olivia Smith. I’m a Columbus native who loves
                 my family, music, theatre, and laughing.
@@ -54,16 +55,18 @@
 
         <div>
             <h3 id="contact-info">Contact Info</h3>
-            <p>Phone number: 614-914-7350</p>
-            <p>Email address: Olivia.Smith.31196@gmail.com</p>
+            <p class="contact">Phone number: 614-914-7350</p>
+            <p class="contact">Email address: Olivia.Smith.31196@gmail.com</p>
         </div>
 
         <div>
-            <h3 id="site-links">My Sites</h3>
-            <p><a class="linkphoto" href="https://www.linkedin.com/in/olivia-smith-6560b7167/" target="_blank"><img
-                        src="linkedinlogo.png" alt="LinkedIn Logo"></a></p>
-            <p><a class="linkphoto" href="https://github.com/oliviasmith311" target="_blank"><img src="githublogo.png"
-                        alt="GitHub Logo"></a></p>
+            <h3>My Sites</h3>
+            <div id="site-links">
+                <a href="https://www.linkedin.com/in/olivia-smith-6560b7167/" target="_blank"><img class="linkphoto"
+                            src="linkedinlogo.png" alt="LinkedIn Logo"></a>
+                <a href="https://github.com/oliviasmith311" target="_blank"><img class="linkphoto"
+                            src="githublogo.png" alt="GitHub Logo"></a>
+            </div>
         </div>
 
         <div>
@@ -77,8 +80,8 @@
         <h2 id="projects">My Projects</h2>
         <!-- Insert project links here -->
 
-        <div>
-            <h3>Virtual Aliens</h3>
+        <div class="projects__1">
+            <h3><a href="https://github.com/2020-Spring-Cohort/virtual-pets-amok-pet-people" target="_blank">Virtual Aliens</a></h3>
             <p>In this project, I worked on a team to create a game
                 application where the user could create virtual aliens
                 to keep in an alien shelter. Users had to perform
@@ -86,8 +89,8 @@
                 and were intelligent.</p>
         </div>
 
-        <div>
-            <h3>High St. Hospital</h3>
+        <div class="projects__1">
+            <h3><a href="https://github.com/2020-Spring-Cohort/high-st-hospital-oliviasmith311" target="_blank">High St. Hospital</a></h3>
             <p>High St. Hospital: In this project, I worked
                 independently to create an application that
                 inventoried the staff and patients of the imaginary
@@ -95,6 +98,8 @@
                 tasks on patients to affect their levels of health and blood.</p>
         </div>
     </section>
+
+    <footer>Created by Olivia Smith</footer>
 
 </body>
 
