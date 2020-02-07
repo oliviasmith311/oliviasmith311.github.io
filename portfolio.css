@@ -5,9 +5,9 @@ body{
 
 h1 {
     text-align: center;
-    font-size: 10rem;
+    font-size: 175px;
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 0px;
     color: #450920;
     height: 200px;
 }
@@ -84,7 +84,7 @@ p {
 }
 
 .projects__1{
-    margin-top: 0px;
+    margin-top: 20px;
     margin-bottom: 0px;
 }
 
@@ -109,10 +109,11 @@ footer{
 }
 
 #projects{
+    font-size: 80px;
     height: 80px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-align: left;
-    margin-left: 25px;
+    margin-left: 40px;
     color: #450920;
 }
 
@@ -120,4 +121,12 @@ footer{
     width: 850px;
     text-align: left;
     margin-left: 50px;
+}
+
+.projects__1a{
+    text-align: center;
+}
+
+.projects__2a{
+    text-align: center;
 }
