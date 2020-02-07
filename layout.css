@@ -55,3 +55,24 @@
     align-items: flex-start;
 }
 
+.projects__{
+    display: grid;
+    grid-template-rows: 90px 1fr 1fr;
+}
+
+#projects{
+    grid-row: 1;
+}
+.projects__1{
+    display: flex;
+    grid-row: 2;
+}
+
+.projects__2{
+    display: flex;
+    grid-row: 3;
+}
+
+.screenshots{
+    width: 600px;
+}
