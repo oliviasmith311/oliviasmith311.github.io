@@ -66,13 +66,15 @@
 .projects__1{
     display: flex;
     grid-row: 2;
+    align-items: flex-start;
 }
 
 .projects__2{
     display: flex;
     grid-row: 3;
+    align-items: flex-start;
 }
 
 .screenshots{
-    width: 600px;
+    width: 550px;
 }
