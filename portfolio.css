@@ -2,7 +2,6 @@ body{
     min-width: 900px;
 }
 
-
 h1 {
     text-align: center;
     font-size: 175px;
@@ -17,7 +16,7 @@ a:link{
 }
 
 a:visited{
-    color: #D17B7E;
+    color: #933256;
 }
 
 body{
