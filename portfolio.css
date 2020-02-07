@@ -1,23 +1,29 @@
+body{
+    min-width: 900px;
+}
+
+
 h1 {
     text-align: center;
     font-size: 10rem;
     margin-bottom: 0px;
     margin-top: 10px;
-    color: #0D1B2A;
+    color: #450920;
+    height: 200px;
 }
 
 a:link{
-    color: #0D1B2A;
+    color: #450920;
 }
 
 a:visited{
-    color: #450920;
+    color: #D17B7E;
 }
 
 body{
     font-family: 'Annie Use Your Telescope';
-    background-color: burlywood;
-    color: #0D1B2A;
+    background-color: #F9DBBD;
+    color: #A53860;
 }
 
 img {
@@ -29,10 +35,12 @@ h2 {
     font-size: 50px;
     margin-bottom: opx;
     margin-top: 0px;
+    color: #DA627D;
 }
 
 h3 {
     font-size: 40px;
+    color: #450920;
 }
 
 li{
@@ -62,7 +70,7 @@ p {
 
 #selfpic{
     border-radius: 25px;
-    border: 5px solid #0D1B2A;
+    border: 5px solid #450920;
 }
 
 #header {
@@ -104,7 +112,8 @@ footer{
     height: 80px;
     margin-bottom: 30px;
     text-align: left;
-    margin-left: 30px;
+    margin-left: 25px;
+    color: #450920;
 }
 
 #about-me{
