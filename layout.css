@@ -12,6 +12,46 @@
 #site-links {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    margin-left: 45px;
+    justify-content: center;
 }
+
+.contact{
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.contact--info1{
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact--info2{
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact--1{
+    width: 300px;
+    grid-column: 1;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact--2{
+    width: 300px;
+    grid-column: 2;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact--3{
+    width: 300px;
+    grid-column: 3;
+    justify-content: center;
+    align-items: flex-start;
+}
+
