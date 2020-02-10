@@ -32,7 +32,6 @@ img {
 h2 {
     text-align: center;
     font-size: 50px;
-    margin-bottom: opx;
     margin-top: 0px;
     color: #DA627D;
 }
@@ -105,14 +104,13 @@ footer{
 
 .projects__paragraph{
     font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 #projects{
-    font-size: 80px;
-    height: 80px;
-    margin-bottom: 50px;
-    text-align: left;
-    margin-left: 40px;
+    font-size: 60px;
+    text-align: center;
     color: #450920;
 }
 
@@ -128,4 +126,20 @@ footer{
 
 .projects__2a{
     text-align: center;
+}
+
+.pageheader1{
+    font-size: 150px;
+    height: 170px;
+}
+
+.pageheader2{
+    font-size: 150px;
+    height: 200px;
+}
+
+.smallpic{
+    width: 220px;
+    height: 200px;
+    border-radius: 100px;
 }

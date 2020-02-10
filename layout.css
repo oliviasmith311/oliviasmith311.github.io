@@ -56,25 +56,21 @@
 }
 
 .projects__{
-    display: grid;
-    grid-template-rows: 90px 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
 }
 
-#projects{
-    grid-row: 1;
-}
-.projects__1{
-    display: flex;
-    grid-row: 2;
-    align-items: flex-start;
+.smallpic{
+    align-content: center;
 }
 
 .projects__2{
     display: flex;
     grid-row: 3;
     align-items: flex-start;
-}
+} */
 
 .screenshots{
-    width: 500px;
+    width: 800px;
 }
