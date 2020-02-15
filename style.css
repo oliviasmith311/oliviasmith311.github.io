@@ -53,6 +53,10 @@ nav{
     margin-left: 125px;
 }
 
+.bioline a{
+    color: black
+}
+
 #projects{
     height: 500px;
     width: 500px;
