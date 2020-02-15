@@ -1,0 +1,221 @@
+a{
+    color: white;
+}
+
+a:visited{
+    color: rgba(173, 6, 6, 0.836);
+}
+
+h1{
+    font-size: 150px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+.bioline a:visited{
+    color: rgb(12, 2, 41);
+}
+
+.name{
+    font-size: 200px;
+    margin: 0px;
+    height: 200px;
+    text-align: center;
+}
+
+.name p{
+    height: 175px;
+}
+
+nav{
+    background-color: rgba(255, 94, 0, 0.781);
+    height: 50px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    margin: 0px;
+    font-size: 25px;
+}
+
+.bio{
+    height: 500px;
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bioline{
+    margin-top: 20px;
+    margin-right: 135px;
+    margin-left: 125px;
+}
+
+#projects{
+    height: 500px;
+    width: 500px;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+}
+
+.projects__1{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#projects h3{
+    font-size: 25px;
+}
+
+.projects__header{
+    font-size: 40px;
+    margin: 0px;
+    margin-top: 60px;
+}
+
+#skills{
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.skills__row p{
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#mybio{
+    font-size: 40px;
+}
+
+.bio h3{
+    font-size: 70px;
+    margin: 0px;
+    margin-top: 60px;
+}
+
+.bio p{
+    height: 500px;
+    width: 550px;
+    font-size: 25px;
+}
+
+.photobar{
+    margin-top: 80px;
+}
+
+.photobar__1{
+    height: 200px;
+    border-radius: 200px;
+}
+
+.photobar__2{
+    height: 200px;
+    border-radius: 200px;
+}
+
+.photobar__3{
+    height: 200px;
+    border-radius: 200px;
+}
+
+.photobar__4{
+    height: 200px;
+    border-radius: 200px;
+}
+
+.bottom{
+    margin: 75px;
+    margin-top: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgba(255, 94, 0, 0.781);
+    padding-top: 35px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bottom h3{
+    font-size: 40px;
+    text-align: center;
+}
+
+.bottom__2 img{
+    height: 100px;
+    width: 100px;
+}
+
+.bottom p{
+    vertical-align: baseline;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer{
+    text-align: right;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bottom__2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project__paragraph{
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.project__skills{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.project__img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project__link a:visited{
+    color: black;
+} 
+
+.project__link{
+    margin-top: 50px;
+    margin-left: 160px;
+}
+
+#hospitalimg{
+    margin-top: 10px;
+    width: 300px;
+    height: 350px;
+}
+
+#hospitalheader{
+    font-size: 125px;
+}
+
+#alienimg{
+    height: 420px;
+    width: 350px;
+}
+
+.VirtualAliens{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.hospital{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}

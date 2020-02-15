@@ -6,20 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>High St Hospital- Olivia Smith's Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="layout.css">
 
 
 </head>
 
-<link href='https://fonts.googleapis.com/css?family=Archivo Narrow' rel='stylesheet'>
-<link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 <body>
-    <h1 class="pageheader2">High St. Hospital</h1>
-    <article class="projects__2">
-        <div>
-            <p class="projects__paragraph">In this project, I worked
+    <div class="project__header">
+        <img id="hospitalimg" src="hospital.png" alt="cartoon hospital">
+        <h1 id="hospitalheader">High St. Hospital</h1>
+    </div>
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Back to Main Page</a></li>
+
+        </ul>
+    </nav>
+
+    <article class="hospital">
+        <div class="project__paragraph">
+            <p>In this project, I worked
                 independently to create an application that told
                 the story of the imaginary High St. Hospital.
                 The application added staff and patients to the
@@ -31,11 +40,13 @@
                 perform an action on a patient, to treat them or
                 draw their blood, which affected the patients'
                 health and blood levels.</p>
-            <p>Skills used: Java, OOP, TDD, Agile (Scrum), Source Control / Git</p>
-            <img class="screenshots" src="HighStHospital.PNG" alt="High St Hospital app screenshot">
-            <p><a href="https://github.com/2020-Spring-Cohort/high-st-hospital-oliviasmith311" target="_blank">Check out
-                    this project's GitHub repository!</a></p>
         </div>
+        <p class="project__skills">Skills used: Java, OOP, TDD, Agile (Scrum), Source Control / Git</p>
+        <p class="project__link"><a href="https://github.com/2020-Spring-Cohort/high-st-hospital-oliviasmith311"
+                target="_blank">Check out
+                this project's GitHub repository!</a></p>
+        <img class="project__img" src="HighStHospital.PNG" alt="High St Hospital app screenshot">
+
     </article>
 
     <footer>Created by Olivia Smith</footer>
