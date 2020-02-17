@@ -15,7 +15,7 @@ h1{
 }
 
 .bioline a:visited{
-    color: rgb(12, 2, 41);
+    color: rgb(48, 1, 28);
 }
 
 .name{
@@ -49,8 +49,8 @@ nav{
 
 .bioline{
     margin-top: 20px;
-    margin-right: 135px;
-    margin-left: 125px;
+    padding-left: 125px;
+    padding-right: 125px;
 }
 
 .bioline a{
