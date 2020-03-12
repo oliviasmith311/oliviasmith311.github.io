@@ -16,7 +16,7 @@
 
 .header__image{
     margin-top: 5px;
-    height: 400px;
+    height: 350px;
 }
 
 .navbar{
@@ -38,8 +38,10 @@ nav{
 
 .bioline{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .bottom{
