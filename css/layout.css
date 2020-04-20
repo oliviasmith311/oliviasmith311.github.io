@@ -1,7 +1,8 @@
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin-bottom: 40px;
+    margin-left: 225px;
 }
 
 .name{
@@ -16,7 +17,7 @@
 
 .header__image{
     margin-top: 5px;
-    height: 350px;
+    height: 400px;
 }
 
 .navbar{
@@ -34,19 +35,29 @@ nav{
 .photobar{
     display: flex;
     justify-content: space-around;
+    grid-row: 2;
+}
+
+.main{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .bioline{
+    grid-row: 1;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .bottom{
+    grid-row: 3;
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 300px;
 }
 
 .bottom__1{
@@ -57,22 +68,22 @@ nav{
     grid-column: 2;
 }
 
+.bottom__3{
+    grid-column: 3;
+}
+
 .project__header{
-    display: flex;
-    justify-content: center;
-}
-
-.projects__rows{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 300px 200px;
-}
-
-#projects{
-    grid-row: 1;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .skills__row{
+    margin-top: 20px;
     grid-row: 2;
     justify-self: end;
 }
+
+
+

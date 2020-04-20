@@ -1,3 +1,8 @@
+.header{
+    height: 400px;
+    vertical-align: middle;
+}
+
 a{
     color: white;
 }
@@ -19,7 +24,7 @@ h1{
 }
 
 .name{
-    font-size: 175px;
+    font-size: 225px;
     margin: 0px;
     height: 200px;
     text-align: center;
@@ -46,7 +51,7 @@ nav{
 }
 
 .bioline{
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .bioline a{
@@ -69,32 +74,10 @@ nav{
     font-size: 25px;
 }
 
-.projects__header{
-    font-size: 40px;
-    margin: 0px;
-    margin-top: 60px;
-}
-
-#skills{
-    text-align: right;
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-}
-
 .skills__row p{
     text-align: right;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-}
-
-#mybio{
-    font-size: 40px;
-}
-
-.bio h3{
-    font-size: 70px;
-    margin: 0px;
-    margin-top: 60px;
 }
 
 .bio p{
@@ -102,7 +85,7 @@ nav{
 }
 
 .photobar{
-    margin-top: 80px;
+    margin-top: 10px;
 }
 
 .photobar__1{
@@ -126,13 +109,9 @@ nav{
 }
 
 .bottom{
-    margin: 75px;
-    margin-top: 80px;
-    margin-left: 0px;
-    margin-right: 0px;
     background-color: rgba(255, 94, 0, 0.781);
-    padding-top: 35px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-right: 50px;
     padding-left: 50px;
     color: white;
@@ -144,7 +123,7 @@ nav{
     text-align: center;
 }
 
-.bottom__2 img{
+.bottom__3 img{
     height: 100px;
     width: 100px;
 }
@@ -161,7 +140,7 @@ footer{
     font-family: 'Roboto', sans-serif;
 }
 
-.bottom__2{
+.bottom__3{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -184,13 +163,17 @@ footer{
     margin-right: auto;
 }
 
+.project__link a{
+    color: black;
+}
+
 .project__link a:visited{
     color: black;
 } 
 
 .project__link{
     margin-top: 50px;
-    margin-left: 160px;
+    margin-left: 150px;
 }
 
 #hospitalimg{
@@ -208,12 +191,7 @@ footer{
     width: 350px;
 }
 
-.VirtualAliens{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-}
-
-.hospital{
+.project__info{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
