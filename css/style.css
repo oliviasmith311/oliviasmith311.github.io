@@ -161,6 +161,7 @@ footer{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 5px solid black;
 }
 
 .project__link a{
@@ -195,3 +196,4 @@ footer{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
+
