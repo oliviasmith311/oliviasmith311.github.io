@@ -1,89 +1,122 @@
-.header{
+.aboutMe{
+    margin-top: 1.5em;
+  }
+
+.aboutPic{
     display: flex;
-    justify-content: left;
-    margin-bottom: 40px;
-    margin-left: 225px;
+    margin-left: 1em;
 }
 
-.name{
+.aboutSkills{
+    margin-left: 1.5em;
+    margin-right: 3.75em;
+}
+
+.back{
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+body, 
+html{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact{
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35em;
+ }
+
+.contact img{
+    margin-bottom: 11em;
+    margin-top: 15em;
+}
+
+.contact img{
+    height: 10em;
+}
+
+footer{
+    bottom: 0.5em;
+    position: absolute;
+    right: 0.5em;
+}
+
+h1{
+    margin-bottom: 2px;
+    margin-right: 4.5rem;
+    margin-top: 10px;
+}
+
+h2{    
+    margin-right: 4.5rem;
+    margin-top: 0px;
+}
+
+.info{
+    margin-bottom: 1em;
+    margin-left: 3em;
+    margin-right: 6em;
+    margin-top: 2em;
+}
+
+.link{
+    margin-left: 4.6em;
+    margin-right: 6em;
+}
+
+.navBox{
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
     margin-left: 50px;
 }
 
-.name p{
-    margin: 0px;
-    text-align: center;
-}
-
-.header__image{
-    margin-top: 5px;
-    height: 400px;
-}
-
-.navbar{
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
+.navBoxSmall{
     align-items: center;
-    height: 50px;
-}
-
-nav{
-    align-content: center;
-}
-
-.photobar{
     display: flex;
-    justify-content: space-around;
-    grid-row: 2;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    position: absolute;
+    right: 3em;
 }
 
-.main{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+.pic1{
+    margin-right: 1.6em;
 }
 
-.bioline{
-    grid-row: 1;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    margin-left: 100px;
-    margin-right: 100px;
+.pic1 img{
+    margin-top: 15em; 
 }
 
-.bottom{
-    grid-row: 3;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    height: 300px;
+.projects:first-child{
+    margin-bottom: 0.5em;
 }
 
-.bottom__1{
-    grid-column: 1;
+.projects div{
+    margin-left: 1em;
+    margin-top: .25em;
 }
 
-.bottom__2{
-    grid-column: 2;
+.skills{
+    margin-top: 1em;
 }
 
-.bottom__3{
-    grid-column: 3;
+.skillsUsed{
+    margin-bottom: 1em;
+    margin-left: 4.6em;
+    margin-right: 6em;
 }
 
-.project__header{
-    font-size: 60px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.skills__row{
-    margin-top: 20px;
-    grid-row: 2;
-    justify-self: end;
-}
-
-
-
+.title{
+    margin-bottom: 1em;
+  }
