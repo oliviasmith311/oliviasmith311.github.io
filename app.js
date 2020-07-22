@@ -59,6 +59,7 @@ const contactMeAppear = () => {
     navBox.classList.add('navBoxSmall');
 
     const linkedin = document.createElement('img');
+    linkedin.classList.add('linkedin');
     linkedin.src = 'images/linkedinlogo.png';
 
     linkedin.addEventListener('click', () => {
@@ -67,6 +68,7 @@ const contactMeAppear = () => {
 
     contactAnchor.appendChild(linkedin);
     const github = document.createElement('img');
+    github.classList.add('github');
     github.src = 'images/githublogo.png';
 
     github.addEventListener('click', () => {
@@ -75,6 +77,7 @@ const contactMeAppear = () => {
 
     contactAnchor.appendChild(github);
     const email = document.createElement('img');
+    email.classList.add('email');
     email.src = 'images/gmaillogo.png';
 
     email.addEventListener('click', () => {
@@ -107,6 +110,7 @@ const projectsAppear = () => {
     title.classList.add('title');
 
     const blog = document.createElement('div');
+    blog.classList.add('blog');
     blog.innerText = 'Shrimp Heaven Now \n(Full-Stack Blog)'
     projectsAnchor.appendChild(blog);
 
@@ -139,6 +143,7 @@ const projectsAppear = () => {
     })
 
     const shrimpClick = document.createElement('div');
+    shrimpClick.classList.add('shrimp');
     shrimpClick.innerText = 'ShrimpClick'
     projectsAnchor.appendChild(shrimpClick);
     
@@ -171,6 +176,7 @@ const projectsAppear = () => {
     })
     
     const database = document.createElement('div');
+    database.classList.add('database');
     database.innerText = 'Music Database'
     projectsAnchor.appendChild(database);
 
@@ -203,6 +209,7 @@ const projectsAppear = () => {
     })
     
     const esl = document.createElement('div');
+    esl.classList.add('esl');
     esl.innerText = 'Our ESL Classroom'
     projectsAnchor.appendChild(esl);
 
