@@ -50,26 +50,10 @@ html{
     height: 10em;
 }
 
-.database:hover{
-    cursor: pointer;
-}
-
-.email:hover{
-    cursor: pointer;
-}
-
-.esl:hover{
-    cursor: pointer;
-}
-
 footer{
     bottom: 0.5em;
     position: absolute;
     right: 0.5em;
-}
-
-.github:hover{
-    cursor: pointer;
 }
 
 h1{
@@ -93,26 +77,6 @@ h2{
 .link{
     margin-left: 4.6em;
     margin-right: 6em;
-}
-
-.linkedin:hover{
-    cursor: pointer;
-}
-
-.navBar_about:hover{
-    cursor: pointer;
-}
-
-.navBar_contact:hover{
-    cursor: pointer;
-}
-
-.navBar_home:hover{
-    cursor: pointer;
-}
-
-.navBar_projects:hover{
-    cursor: pointer;
 }
 
 .navBox{
@@ -149,14 +113,6 @@ h2{
 .projects div{
     margin-left: 1em;
     margin-top: .25em;
-}
-
-.shrimp:hover{
-    cursor: pointer;
-}
-
-.skillsUsed:hover{
-    cursor: pointer;
 }
 
 .skills{

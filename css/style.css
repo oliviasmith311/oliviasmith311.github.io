@@ -31,10 +31,26 @@ html {
   width: 100%;
 }
 
+.database:hover{
+  cursor: pointer;
+}
+
+.email:hover{
+  cursor: pointer;
+}
+
+.esl:hover{
+  cursor: pointer;
+}
+
 footer{
   color: white;
   font-family: "Barlow Condensed", sans-serif;
   font-size: 1em;
+}
+
+.github:hover{
+  cursor: pointer;
 }
 
 h1 {
@@ -64,6 +80,26 @@ h2 {
   font-family: "Barlow Condensed", sans-serif;
   font-size: 2rem;
   text-align: left;
+}
+
+.linkedin:hover{
+  cursor: pointer;
+}
+
+.navBar_about:hover{
+  cursor: pointer;
+}
+
+.navBar_contact:hover{
+  cursor: pointer;
+}
+
+.navBar_home:hover{
+  cursor: pointer;
+}
+
+.navBar_projects:hover{
+  cursor: pointer;
 }
 
 .navBox {
@@ -102,6 +138,14 @@ h2 {
   color: white;
   font-size: 4.5em;
   font-family: "Barlow Condensed", sans-serif;
+}
+
+.shrimp:hover{
+  cursor: pointer;
+}
+
+.skillsUsed:hover{
+  cursor: pointer;
 }
 
 .skills{

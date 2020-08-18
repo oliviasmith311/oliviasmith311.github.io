@@ -124,17 +124,17 @@ const projectsAppear = () => {
         back.addEventListener('click', projectsAppear);
 
         const info = document.createElement('div');
-        info.innerText = 'For this project, I worked independently to create a full-stack blog for my favorite podcast, My Brother, My Brother and Me. On the site, a user can submit blog posts, which include an author, a category, and various hashtags of the users choice. The user can then search for other posts by author, category or hashtag.';
+        info.innerText = 'For this project, I worked independently to create a full-stack SPA blog site based off of my favorite podcast, “My Brother, My Brother and Me,” that could be updated with posts, which had a title, author and category, and could be given hashtags. Posts could then be viewed by author, category, or hashtag.';
         info.classList.add('info');
         const skillsUsed = document.createElement('div');
-        skillsUsed.innerText = 'Skills used: Java, Spring, MVC, HTML, CSS, TDD, Agile (Scrum), Thymeleaf, Source Control / Git';
+        skillsUsed.innerText = 'Skills used: Java, Spring, JavaScript, HTML, CSS, Source Control / Git';
         skillsUsed.classList.add('skillsUsed');
         const blogLink = document.createElement('div');
         blogLink.innerText = 'Click here to view this project\'s GitHub repository!';
         blogLink.classList.add('link');
         
         blogLink.addEventListener('click', () => {
-            window.open('https://github.com/2020-Spring-Cohort/full-stack-blog-oliviasmith311', 'blank');
+            window.open('https://github.com/oliviasmith311/ShrimpHeaven', 'blank');
         })
 
         blogAnchor.appendChild(info);
